@@ -2,7 +2,7 @@ package trafficinfo.baseline.lambda.minimal
 
 import com.amazonaws.services.lambda.runtime.Context
 import com.amazonaws.services.lambda.runtime.RequestHandler
-import kotlinx.datetime.*
+import kotlinx.datetime.Clock
 
 class App : RequestHandler<HandlerInput, HandlerOutput> {
   override fun handleRequest(input: HandlerInput?, context: Context?): HandlerOutput {

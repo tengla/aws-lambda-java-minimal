@@ -6,7 +6,6 @@ package trafficinfo.baseline.lambda.minimal
 import kotlin.test.Test
 import kotlin.test.assertNotEquals
 import kotlin.test.assertEquals
-import kotlinx.datetime.*
 
 class AppTest {
   @Test
